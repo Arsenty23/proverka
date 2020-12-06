@@ -1,0 +1,307 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #17191C;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.conteiner {
+  margin: 0 auto;
+}
+
+.header {
+  height: 100px;
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 21px;
+  left: 381px;
+}
+
+.logo__img {
+  width: 198px;
+  height: 46px;
+}
+
+.menu {
+  position: absolute;
+  top: 39px;
+  left: 820px;
+  width: 264px;
+  height: 19px;
+}
+
+.contacts {
+  position: absolute;
+  top: 27px;
+  right: 364px;
+  font-style: normal;
+  text-align: right;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 4px;
+  color: #FFFFFF;
+}
+
+.contacts__dropdown-title {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #FF3D00;
+}
+
+.hero__content {
+  position: absolute;
+  top: 235px;
+}
+
+.hero__text-section {
+  position: absolute;
+  width: 776px;
+  text-align: center;
+  display: inline-block;
+  left: 568px;
+}
+
+.hero__title {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.hero__subtitle {
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+.btn {
+  background: #FF3D00;
+  border-radius: 35px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 18px 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.section {
+  margin-bottom: 174px;
+}
+
+.offers {
+  position: absolute;
+  width: 1140px;
+  height: 476px;
+  left: 389px;
+  top: 795px;
+
+}
+
+.offers__item {
+  min-height: 476px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 22px;
+  width: 362px;
+  color: #000000;
+}
+
+.offers__item:last-child {
+  margin-right: 0;
+}
+
+.offers__header {
+  min-height: 133px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.offers__header-img {
+  position: absolute;
+  width: 84px;
+  height: 80px;
+  left: 29px;
+  top: 36px;
+
+}
+
+.offers__content {
+  padding: 36px 30px;
+}
+
+.offers__title {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 17px;
+}
+
+.offers__conditions {
+  display: inline-block;
+  vertical-align: top;
+  width: 102px;
+  margin-right: 81px;
+  margin-bottom: 25px;
+  white-space: nowrap;
+}
+
+.offers__conditions:last-child {
+  margin-right: 0;
+}
+
+.offers__condition-person {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #666666;
+}
+
+.offers__condition-day {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.offers__description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #666666;
+}
+
+.offers__description {
+  margin-bottom: 47px;
+}
+
+
+.conteiner {
+  position: absolute;
+  width: 1139px;
+  height: 600px;
+  left: 389px;
+  top: 1451px;
+}
+
+.news {
+  position: absolute;
+}
+
+.news__item {
+  width: 557px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.news__cover {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.news__text-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 31px 30px;
+  min-height: 125px;
+}
+
+.news__date {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.news__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.pager {
+  text-align: center;
+  position: absolute;
+  width: 375px;
+  height: 53px;
+  left: 495px;
+  top: 498px;
+}
+
+.pager__display,.pager__list {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pager__display {
+  margin-right: 25px;
+}
+
+.pager__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pager__item--active .pager__link {
+  background: #FF5500;
+}
+
+.pager__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: relative;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 32px;
+}
