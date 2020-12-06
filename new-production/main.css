@@ -26,7 +26,8 @@ h1, h2, h3, h4, h5, h6 {
   box-sizing: border-box;
 }
 
-.conteiner {
+.container {
+  width: 940px;
   margin: 0 auto;
 }
 
@@ -38,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo {
   display: block;
-  position: absolute;
+  position: ;
   top: 21px;
   left: 381px;
 }
@@ -49,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu {
-  position: absolute;
+  position: ;
   top: 39px;
   left: 820px;
   width: 264px;
@@ -57,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contacts {
-  position: absolute;
+  position: ;
   top: 27px;
   right: 364px;
   font-style: normal;
@@ -94,12 +95,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero__content {
-  position: absolute;
+  position: ;
   top: 235px;
 }
 
 .hero__text-section {
-  position: absolute;
+  position: ;
   width: 776px;
   text-align: center;
   display: inline-block;
@@ -134,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .offers {
-  position: absolute;
+  position: ;
   width: 1140px;
   height: 476px;
   left: 389px;
@@ -163,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .offers__header-img {
-  position: absolute;
+  position: ;
   width: 84px;
   height: 80px;
   left: 29px;
@@ -219,16 +220,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.conteiner {
-  position: absolute;
-  width: 1139px;
-  height: 600px;
-  left: 389px;
-  top: 1451px;
-}
-
 .news {
-  position: absolute;
+  position: ;
 }
 
 .news__item {
@@ -249,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .news__text-content {
-  position: absolute;
+  position: ;
   left: 0;
   right: 0;
   bottom: 0;
@@ -270,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .pager {
   text-align: center;
-  position: absolute;
+  position: ;
   width: 375px;
   height: 53px;
   left: 495px;
